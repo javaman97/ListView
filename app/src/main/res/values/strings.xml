@@ -1,3 +1,4 @@
 <resources>
-    <string name="app_name">ListView</string>
+    <string name="app_name">ICECREAM</string>
+    <string name="favourite_ice_cream">Favourite IceCream</string>
 </resources>

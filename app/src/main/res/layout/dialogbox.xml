@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@drawable/tick" />
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:textColor="#4CAF50"
+        android:text="ORDER PLACED SUCCESSFULLY"
+        android:textSize="25sp"
+        android:textAlignment="center"/>
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#F19B80"
+        android:layout_marginTop="5dp"
+        android:text="Enjoy Your Favourite IceCream!"
+        android:textAlignment="center"/>
+    <Button
+        android:id="@+id/btn_okay"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="OKAY"
+        android:backgroundTint="#4CAF50"
+        android:textSize="22sp"/>
+</LinearLayout>
